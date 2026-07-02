@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Bog'lanish - Asal Ari Klinikasi</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <div class="logo">🐝 Asal Ari Klinikasi</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Bosh sahifa</a></li>
+      <li><a href="services.html">Xizmatlar</a></li>
+      <li><a href="contact.html">Bog'lanish</a></li>
+    </ul>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+</header>
+
+<a href="index.html" class="buttondz">Orqaga qaytish</a>
+
+<section id="booking" class="booking">
+  <h2>Qabulga yozilish</h2>
+<form id="bookingForm">
+
+<input type="text" id="name" placeholder="Ismingiz" required>
+
+<input type="tel" id="phone" placeholder="+998901234567" required>
+
+<input type="date" id="date" required>
+
+<select id="service" required>
+<option value="">Xizmatni tanlang</option>
+<option>Apiterapiya</option>
+<option>Asal terapiya</option>
+<option>Propolis davolash</option>
+</select>
+
+<button type="submit" class="btn-submit">Yuborish</button>
+
+</form>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Bog'lanish</h2>
+  <p>📞 +998 90 123 45 67</p>
+  <p>📍 Toshkent, O'zbekiston</p>
+</section>
+
+<div class="theme-toggle">
+  <button id="theme-btn">🌙</button>
+</div>
+
+<footer>
+  &copy; 2026 Asal Ari Klinikasi. Barcha huquqlar himoyalangan.
+</footer>
+
+<script src="./main.js" defer></script>
+</body>
+</html>
