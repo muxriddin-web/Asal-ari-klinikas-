@@ -1,1 +1,1 @@
-# Asal-ari-klinikas-
+# Asal-ari-klinikas
