@@ -8,7 +8,7 @@ const app = express();
 // Xosting taqdim etadigan portni olish yoki bo'lmasa standart 3000 
 const PORT = process.env.PORT || 3000;
 
-// Frontend fayllarni ulash
+// Frontend fayllarni ulashi
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json());
 
