@@ -5,7 +5,7 @@ require('dotenv').config();
 
 const app = express();
 
-// Xosting taqdim etadigan portni olish, bo'lmasa standart 3000
+// Xosting taqdim etadigan portni olish yoki bo'lmasa standart 3000 
 const PORT = process.env.PORT || 3000;
 
 // Frontend fayllarni ulash
