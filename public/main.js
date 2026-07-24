@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-// Contact js //////////////////////
+// Contact js code//////////////////////
 let lastSubmit = 0;
 
 const bookingForm = document.getElementById("bookingForm");
