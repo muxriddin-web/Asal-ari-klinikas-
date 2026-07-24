@@ -58,7 +58,7 @@ if (bookingForm) {
       return;
     }
 
-    // Backend endpointga so'rov yuborish (Xavfsiz usul)
+    // Backend endpointga so'rov yuborish (Xavfsiz usul uchun)
     fetch('/api/booking', {
       method: "POST",
       headers: {
