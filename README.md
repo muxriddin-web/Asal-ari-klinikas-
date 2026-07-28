@@ -73,7 +73,7 @@ Optimized HTML, CSS, and JavaScript provide fast loading speeds and smooth user 
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/muxriddin-web/Asal-ari-klinikas
+git clone https://github.com/muxriddin-web/Asal-ari-klinikas-
 ```
 
 ---
