@@ -81,7 +81,7 @@ git clone https://github.com/muxriddin-web/Asal-ari-klinikas
 ## Navigate into the Project
 
 ```bash
-cd honey-bee-clinic
+cd Asal-ari-klinikas
 ```
 
 ---
