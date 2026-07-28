@@ -21,7 +21,7 @@ app.post('/api/booking', async (req, res) => {
             return res.status(400).json({ success: false, message: "Barcha maydonlarni to'ldiring!" });
         }
 
-        // Xosting muhitidan tokenlarni 
+        // Xosting muhitidan tokenlarni o'qish
         const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
         const CHAT_ID = process.env.TELEGRAM_CHAT_ID;
 
