@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json());
 
-// Telegram API 
+// Telegram API Endpoint
 app.post('/api/booking', async (req, res) => {
     try {
         const { name, phone, date, service } = req.body;
@@ -21,7 +21,7 @@ app.post('/api/booking', async (req, res) => {
             return res.status(400).json({ success: false, message: "Barcha maydonlarni to'ldiring!" });
         }
 
-        // Xosting muhitidan tokenlarni o'qish
+        // Xosting muhitidan tokenlarni 
         const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
         const CHAT_ID = process.env.TELEGRAM_CHAT_ID;
 
