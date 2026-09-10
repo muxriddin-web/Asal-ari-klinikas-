@@ -1,4 +1,4 @@
-// DARK/Light toggle funksiyasi (O'zgartirilmagan qism uchun)/////////////////
+// DARK/LIGHT toggle funksiyasi (O'zgartirilmagan qism uchun)/////////////////
 const themeBtn = document.getElementById('theme-btn');
 
 function applyTheme(theme) {
